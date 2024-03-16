@@ -20,7 +20,7 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    origin: "http://localhost:5173"
+    origin: "https://checking-hr33.vercel.app/"
   
   })
 );
